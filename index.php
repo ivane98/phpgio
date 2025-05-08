@@ -1,7 +1,11 @@
 <?php 
+$x = 1;
 
-$foo = "bar";
+$text = <<<TEXT
+line 1 $x
+line 2
+line 2
+TEXT;
 
-$$foo = "baz";
 
-echo var_dump($foo);
+echo nl2br($text);

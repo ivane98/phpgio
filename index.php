@@ -1,11 +1,8 @@
-<?php 
-$x = 1;
+<?php
 
-$text = <<<TEXT
-line 1 $x
-line 2
-line 2
-TEXT;
+declare(strict_types=1);
 
+function sum(int $x, int $y){
+    return $x + $y;
+}
 
-echo nl2br($text);

@@ -1,3 +1,8 @@
 <?php
+declare(strict_types=1);
 
-echo $x;
+namespace Foo;
+
+// use DateTime;
+
+$date = new \DateTime();

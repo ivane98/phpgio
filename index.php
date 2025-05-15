@@ -1,9 +1,5 @@
 <?php
 
-$obj = new stdClass();
+use function Foo\foo;
 
-
-$obj->a = 'a';
-
-
-var_dump($obj);
+foo();

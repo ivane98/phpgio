@@ -27,3 +27,5 @@ class Transaction {
     }
 
 }
+
+function foo(){}

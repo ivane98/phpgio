@@ -1,5 +1,10 @@
 <?php
 
-use function Foo\foo;
+require 'vendor/autoload.php';
 
-foo();
+use Ramsey\Uuid\UuidFactory;
+
+$id = new UuidFactory();
+
+echo $id->uuid4();
+

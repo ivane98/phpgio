@@ -3,6 +3,8 @@
     "ramsey/uuid": "^4.7"
   },
   "autoload": {
-    "Gio\\": "/gio"
+    "psr-4": {
+      "Gio\\": "App/"
+    }
   }
 }

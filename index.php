@@ -2,9 +2,15 @@
 
 require 'vendor/autoload.php';
 
+use Gio\Transaction;
 use Ramsey\Uuid\UuidFactory;
 
-$id = new UuidFactory();
+$transaction = new Transaction(15, 'desc');
 
-echo $id->uuid4();
+// $transaction->amount;
+
+$transaction->process();
+
+
+
 
